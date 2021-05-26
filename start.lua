@@ -71,7 +71,7 @@ RunHydra:write([[
 cd $HOME/HyDrA
 token="]]..database:get(Server_Hydra.."Token_Hydra")..[["
 rm -fr Hydra.lua
-wget "https://raw.githubusercontent.com/hydrasm/HyDrA/master/Hydra.lua"
+wget "https://raw.githubusercontent.com/hydrasm/HyDrAq/master/Hydraq.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./Hydra.lua -p PROFILE --bot=$token
